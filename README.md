@@ -1,4 +1,4 @@
-## Simple Flashcards
+## Simple Flashcards App
 
 ## Lab 4
 
