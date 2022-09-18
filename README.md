@@ -70,7 +70,7 @@
 ## Lab 1
 
 ### App Description
-`TODO://` This is a simple flashcards app that asks a question about the 2014 World Cup at the top left, and invites the user to tap the card in the middle to show the answer. Once the user has tapped the card it will show the card underneath with the answer, as well the flag of the winners. 
+` This is a simple flashcards app that asks a question about the 2014 World Cup at the top left, and invites the user to tap the card in the middle to show the answer. Once the user has tapped the card it will show the card underneath with the answer, as well the flag of the winners. 
 
 ### App Walk-though
 <img src="https://imgur.com/VlrbpGq.gif" width=200><br>
