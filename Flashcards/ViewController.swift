@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var bacgroundView: UIView!
     
+    @IBOutlet weak var questionText: UILabel!
     @IBOutlet weak var answerCard: UILabel!
     @IBOutlet weak var questionCard: UILabel!
     @IBOutlet weak var imageLogo: UIImageView!
@@ -45,6 +46,8 @@ class ViewController: UIViewController {
     
     func updateFlashcard(question: String, answer: String){
         // Write code here
+        questionText.text = question
+        answerCard.text = answer
         
     }
     
