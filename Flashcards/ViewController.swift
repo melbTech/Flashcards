@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionCard: UILabel!
     @IBOutlet weak var imageLogo: UIImageView!
     
-    @IBOutlet weak var germanFlag: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
