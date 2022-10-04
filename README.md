@@ -48,7 +48,7 @@
 ## Lab 2
 
 ### App Description
-The flashcard app has a second screen where the user can click the button to open a second screen to edit the question and answer.
+The flashcard app has a second screen where the user can click the button to open a second screen, they can edit the question and answer.
 
 ### App Walk-though
 <img src="https://imgur.com/a/F4DRIw9.gif" width=200><br>
