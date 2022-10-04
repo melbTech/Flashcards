@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController.swift/Users/mel/Desktop/intro-to-ios/Flashcards/Flashcards/ViewController.swift
 //  Flashcards
 //
 //  Created by Melvin Santos on 9/13/22.
@@ -31,18 +31,32 @@ class ViewController: UIViewController {
         self.answerCard.layer.cornerRadius = 50
         self.answerCard.layer.masksToBounds = true
         
-        self.germanFlag.layer.cornerRadius = 10
-        self.germanFlag.layer.masksToBounds = true
         
-        germanFlag.isHidden = true
-        
-
     }
     
+    @IBAction func newFlashcard(_ sender: Any) {
+        
+    }
     
     @IBAction func tappedFlashcard(_ sender: Any) {
         questionCard.isHidden = true
-        germanFlag.isHidden = false
+    }
+    
+    
+    func updateFlashcard(question: String, answer: String){
+        // Write code here
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // We know the destination of the segue is the Navigation Controller
+        let navigationController = segue.destination as! UINavigationController
+        
+        // We know the Navigation Controller only contains a Creation View Controller
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        // We set the flashcardsController property to self
+        creationController.flashcardsController = self
     }
     
     

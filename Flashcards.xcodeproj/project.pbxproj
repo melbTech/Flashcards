@@ -16,6 +16,7 @@
 		A05316E928D16FAC00A4221B /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05316E828D16FAC00A4221B /* FlashcardsTests.swift */; };
 		A05316F328D16FAC00A4221B /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05316F228D16FAC00A4221B /* FlashcardsUITests.swift */; };
 		A05316F528D16FAC00A4221B /* FlashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05316F428D16FAC00A4221B /* FlashcardsUITestsLaunchTests.swift */; };
+		A06CB18528EB751B00A7C7FB /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06CB18428EB751B00A7C7FB /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A05316EE28D16FAC00A4221B /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05316F228D16FAC00A4221B /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		A05316F428D16FAC00A4221B /* FlashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A06CB18428EB751B00A7C7FB /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A05316D328D16FAA00A4221B /* SceneDelegate.swift */,
 				A05316D528D16FAA00A4221B /* ViewController.swift */,
 				A05316D728D16FAA00A4221B /* Main.storyboard */,
+				A06CB18428EB751B00A7C7FB /* CreationViewController.swift */,
 				A05316DA28D16FAC00A4221B /* Assets.xcassets */,
 				A05316DC28D16FAC00A4221B /* LaunchScreen.storyboard */,
 				A05316DF28D16FAC00A4221B /* Info.plist */,
@@ -261,6 +264,7 @@
 				A05316D628D16FAA00A4221B /* ViewController.swift in Sources */,
 				A05316D228D16FAA00A4221B /* AppDelegate.swift in Sources */,
 				A05316D428D16FAA00A4221B /* SceneDelegate.swift in Sources */,
+				A06CB18528EB751B00A7C7FB /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

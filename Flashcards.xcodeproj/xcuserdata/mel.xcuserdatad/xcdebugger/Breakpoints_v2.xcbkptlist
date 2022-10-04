@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "776D6174-576B-4930-AFAB-5F8E867A8F5A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCB7B564-786D-4B47-9056-3B76E6FD5281"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/CreationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CreationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FCB7B564-786D-4B47-9056-3B76E6FD5281 - 27efb0869059a22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.questionTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mel/Desktop/intro-to-ios/Flashcards/Flashcards/CreationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "FCB7B564-786D-4B47-9056-3B76E6FD5281 - bc363516b047b636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.questionTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mel/Desktop/intro-to-ios/Flashcards/Flashcards/CreationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "FCB7B564-786D-4B47-9056-3B76E6FD5281 - eb08058fb2487f27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.questionTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mel/Desktop/intro-to-ios/Flashcards/Flashcards/CreationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "FCB7B564-786D-4B47-9056-3B76E6FD5281 - 53c3aed86844705"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.questionTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mel/Desktop/intro-to-ios/Flashcards/Flashcards/CreationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "FCB7B564-786D-4B47-9056-3B76E6FD5281 - fd54b0b5e9fc7960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Flashcards.CreationViewController"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mel/Desktop/intro-to-ios/Flashcards/Flashcards/CreationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "FCB7B564-786D-4B47-9056-3B76E6FD5281 - e134c0ec692f2d27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Flashcards.CreationViewController&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mel/Desktop/intro-to-ios/Flashcards/Flashcards/CreationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
