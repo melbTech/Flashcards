@@ -51,7 +51,7 @@
 The flashcard app has a second screen where the user can click the button to open a second screen, they can edit the question and answer.
 
 
-https://user-images.githubusercontent.com/103694007/194341554-946b8586-b696-4131-9eeb-7497044ebc37.mp4
+https://user-images.githubusercontent.com/103694007/194341554-946b8586-b696-4131-9eeb-7497044ebc37.gif
 
 
 ### App Walk-though
