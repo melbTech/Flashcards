@@ -47,8 +47,10 @@ This a flashcard app that you can create multiple flashcards and browse through 
 ### App Description
 The flashcard app has a second screen where the user can click the button to open a second screen, they can edit the question and answer.
 
+
+
 ### App Walk-though
-<img src="https://imgur.com/gallery/lTeDNdZ.gif" width=200><br>
+<img src="https://user-images.githubusercontent.com/103694007/194342785-d5e2dd26-1649-4365-a40f-bbd419286b41.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen
