@@ -30,8 +30,7 @@
 This a flashcard app that you can create multiple flashcards and browse through them. You can go to the previous or next and it saves the flashcards once you get out of the app. 
 
 ### App Walk-though
-<img src="/Users/mel/Documents/lab03.gif" width=200><br>
-
+<img src="https://user-images.githubusercontent.com/103694007/194981721-1a0833f3-7844-486c-a2fb-ba1b7c9e5642.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards
