@@ -65,7 +65,7 @@ class ViewController: UIViewController
     
     func flipFlashcard()
     {
-        UIView.transition(with: questionCard, duration: 0.3, options: .transitionFlipFromRight, animations: {
+        UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight, animations: {
             if (!self.questionCard.isHidden) {
                 self.questionCard.isHidden = true
             } else {
@@ -79,7 +79,7 @@ class ViewController: UIViewController
         currentIndex = currentIndex + 1 // Increse current index
         
         updateNextPrevButtons() // Update buttons
-        animateCardLeft(direction: "left")
+        animateCardOut(direction: "left")
     }
     
     @IBAction func didTapOnPrev(_ sender: Any)
@@ -87,7 +87,7 @@ class ViewController: UIViewController
         currentIndex = currentIndex - 1 // Increse current index
         
         updateNextPrevButtons() // Update buttons
-        animateCardLeft(direction: "right")
+        animateCardOut(direction: "right")
     }
     
     @IBAction func newFlashcard(_ sender: Any)
@@ -95,7 +95,7 @@ class ViewController: UIViewController
         
     }
     
-    func animateCardLeft(direction: String)
+    func animateCardOut(direction: String)
     {
         var dir = CGFloat.init(0.0)
         
@@ -107,14 +107,17 @@ class ViewController: UIViewController
         
        
         UIView.animate(withDuration: 0.3, animations: {
-            self.card.transform = CGAffineTransform.identity.translatedBy(x: dir * 400.0, y: 0.0)
+            self.card.transform = CGAffineTransform.identity.translatedBy(x: dir * -400.0, y: 0.0)
         }) { (finished) in
+            
+            // Update labels
             self.updateLabels()
-            self.animateCardRight(direction: direction)
+            // Run other animation
+            self.animateCardIn(direction: direction)
         }
     }
     
-    func animateCardRight(direction: String)
+    func animateCardIn(direction: String)
     {
         var dir = CGFloat.init(0.0)
         
@@ -124,7 +127,10 @@ class ViewController: UIViewController
             dir = 1.0
         }
         
-        card.transform = CGAffineTransform.identity.translatedBy(x: dir * -400.0, y: 0.0)
+        // Start on the right side
+        card.transform = CGAffineTransform.identity.translatedBy(x: dir * 400.0, y: 0.0)
+        
+        // Animate card going to its original position
         UIView.animate(withDuration: 0.3, animations: {
             self.card.transform = CGAffineTransform.identity
         })
