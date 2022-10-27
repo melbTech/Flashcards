@@ -6,7 +6,7 @@
 This is Flashcard App that displays a question and the user can tap the card to see the answer. The user is also allow to create a multiple Flashcards with different questions and answers. The user can browse through the different flashcars with a nice animation.
 
 ### App Walk-though
-<img src="https://user-images.githubusercontent.com/103694007/198189072-cfa986a2-2f42-4fa9-b7fb-b88cb2625a9f.gif" width=400><br>
+<img src="https://user-images.githubusercontent.com/103694007/198342358-29c0c1a6-afa0-4f6e-86da-dd1338791e50.gif" width=200><br>
 
 ## Required
 - [x] User should see the app icon 
